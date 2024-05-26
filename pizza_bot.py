@@ -2,6 +2,7 @@ import telebot
 from telebot import types
 from my_secrets import secrets
 
+
 # передаём значение переменной с кодом экземпляру бота
 token = secrets.get('BOT_API_TOKEN')
 bot = telebot.TeleBot(token)
